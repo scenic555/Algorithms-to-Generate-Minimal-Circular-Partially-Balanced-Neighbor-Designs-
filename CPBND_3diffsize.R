@@ -3,7 +3,7 @@
 # (K1,k2 and k3)
 # Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Muhammad Rasheed and 
 # Rashid Ahmed (2021). Algorithms to Generate Minimal Circular Partially Balanced Neighbor Designs.
-# Code by Mahmood Ul Hassan and Muhammad Rashid, 2020-2021 
+# Code by Mahmood Ul Hassan and Rashid Ahmed, 2020-2021 
 # Version 1.3.0  (2021-03-26)
 ####################################################################################################
 
