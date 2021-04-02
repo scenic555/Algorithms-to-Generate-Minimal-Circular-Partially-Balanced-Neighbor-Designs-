@@ -112,7 +112,7 @@ if(m%%4==3){
   x<-list(S=A1$B1,G=A1$B2,R=A2,A=A)
  }
 
-if(m%%4==1 |  m%%4==2){return("The minimal CPBNDs in which v/2 unordered pairs cannot constructed for v=2ik+2 and k=block size")}
+if(m%%4==1 |  m%%4==2){return("The minimal CPBNDs in which v/2 unordered pairs cannot be constructed for v=2ik+2 and k=block size")}
 }
 
 if(D==2){

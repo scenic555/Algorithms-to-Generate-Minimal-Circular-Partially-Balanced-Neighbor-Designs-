@@ -191,7 +191,7 @@ if(m%%4==3){
       x<-list(S1=A1$B1,S2=A1$B2,S3=A1$B3,G=A1$B4,R=A2,A=A)
     }
     
-if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+2k2+2k3+2 and k1,k2 k3 block sizes")}
+if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+2k2+2k3+2 and k1,k2 k3 block sizes")}
 }  
    
   
@@ -247,7 +247,7 @@ if(D==1 & sk2==2 & sk3==2){
     x<-list(S1=A1$B1,S2=A1$B2,S3=A1$B3,G=A1$B4,R=A2,A=A)
   }
   
-  if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+4k2+4k3+2 and k1,k2 k3 block sizes")}
+  if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+4k2+4k3+2 and k1,k2 k3 block sizes")}
 }  
 
 
@@ -302,7 +302,7 @@ if(D==2 & sk2==2 & sk3==2){
       x<-list(S1=A1$B1,S2=A1$B2,S3=A1$B3,G=A1$B4,R=A2,A=A)
     }
     
-    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+2k2+4k3+2 and k1,k2 k3 block sizes")}
+    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+2k2+4k3+2 and k1,k2 k3 block sizes")}
   }  
   
   
@@ -356,7 +356,7 @@ if(D==2 & sk2==2 & sk3==2){
       x<-list(S1=A1$B1,S2=A1$B2,S3=A1$B3,G=A1$B4,R=A2,A=A)
     }
     
-    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+4k2+2k3+2 and k1,k2 k3 block sizes")}
+    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+4k2+2k3+2 and k1,k2 k3 block sizes")}
   }  
   
   

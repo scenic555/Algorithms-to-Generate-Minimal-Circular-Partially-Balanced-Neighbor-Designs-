@@ -159,7 +159,7 @@ minimal CPBND for", "v=" ,object[[5]][1], ",","k1=",object[[5]][2],
       x<-list(S1=A1$B1,S2=A1$B2,G=A1$B3,R=A2,A=A)
     }
     
-if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+2k2+2 and k1= block size and k2= block size")}
+if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+2k2+2 and k1= block size and k2= block size")}
   }  
   
   
@@ -181,7 +181,7 @@ if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair can
       x<-list(S1=A1$B1,S2=A1$B2,G=A1$B3,R=A2,A=A)
     }
     
-    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot constructed for V=2ik1+2k2+2 and k1= block size and k2= block size")}
+    if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair cannot be constructed for V=2ik1+2k2+2 and k1= block size and k2= block size")}
   }  
   
 
