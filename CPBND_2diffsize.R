@@ -19,7 +19,7 @@ grouping1<-function(A,k,v,i){
   A1=A
   while(f<=i){
     
-    for(y in 1:2000){
+    for(y in 1:5000){
       com<-sample(A1,k)
       cs<-sum(com)
       if(cs%%v==0){
