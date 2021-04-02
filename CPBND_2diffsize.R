@@ -19,7 +19,7 @@ grouping1<-function(A,k,v,i){
   A1=A
   while(f<=i){
     
-    for(y in 1:200){
+    for(y in 1:2000){
       com<-sample(A1,k)
       cs<-sum(com)
       if(cs%%v==0){
@@ -48,7 +48,7 @@ grouping2<-function(A,k,v,i,sk2){
     s<-grouping1(A1,k[1],v,i)
     A2<-s$B2
     z=i;f=f+i
-    for(y in 1:100){
+    for(y in 1:1000){
       com<-sample(A2,k[2])
       cs<-sum(com)
       if(cs%%v==0){
