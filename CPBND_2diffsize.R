@@ -36,7 +36,7 @@ list(B1=bs,B2=A1)
 }
 
 #######################################################################################
-# Selection of i group of size K1 from adjusted A and devision of required number of 
+# Selection of i group of size K1 from adjusted A and division of required number of 
 # groups of size K2 from B2. 
 #######################################################################################
 grouping2<-function(A,k,v,i,sk2){

@@ -12,7 +12,7 @@
 
 
 ################################################################
-# Divion of adjusted A in i groups to get the set(s) of shifs
+# Division of adjusted A in i groups to get the set(s) of shifs
 ################################################################
 grouping1<-function(A,k,v,i){
   bs<-c()

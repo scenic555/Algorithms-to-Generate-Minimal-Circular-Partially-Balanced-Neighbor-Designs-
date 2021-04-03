@@ -73,7 +73,7 @@ grouping2<-function(A,k,v,i,sk2){
 
 #########################################################################################
 # Selection of i group of size K1 from adjusted A, selection of required number of 
-# groups of size K2 from B2 and devision of required number of groups of size K3 from B3.
+# groups of size K2 from B2 and division of required number of groups of size K3 from B3.
 #########################################################################################
 grouping3<-function(A,k,v,i,sk2,sk3){
   bs1<-c()
