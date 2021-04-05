@@ -255,7 +255,7 @@ if(m%%4==1 | m%%4==2){return("The minimal CPBNDs in which v/2 unordered pair can
 
 
 ###############################################################################
-# Examples: Using CPBND_2diffsize function to obtain the set(s) of shifs
+# Examples: Using CPBND_2diffsize function to obtain the set(s) of shifts
 # for construction of Circular partially balance neighbour design for block of 
 # two different sizes (k1 and k2)
 ###############################################################################
