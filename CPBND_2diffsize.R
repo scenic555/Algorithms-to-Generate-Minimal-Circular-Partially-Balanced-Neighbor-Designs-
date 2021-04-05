@@ -1,6 +1,7 @@
 ####################################################################################################
 # CPBND_2diffsize: Circular partially balance neighbour design for block of two different sizes 
 # (K1 and k2)
+# Algorithm from paper:
 # Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Muhammad Rasheed and 
 # Rashid Ahmed (2021). Algorithms to Generate Minimal Circular Partially Balanced Neighbor Designs.
 # Code by Mahmood Ul Hassan and Rashid Ahmed, 2020-2021 
@@ -108,15 +109,15 @@ delmin<-function(z){
 }
 
 #################################################################################
-# Selection of adjusted A and the set(s) of shifs to obtain Circular partially 
+# Selection of adjusted A and the set(s) of shifts to obtain Circular partially 
 # balance neighbour design for two different block size.
 ##################################################################################
 
 # D=1: minimal CPBNDs in which v/2 unordered pairs do not appear
 # D=2: minimal CPBNDs in which 3v/2 unordered pairs do not appear 
 #   K: Vector of three different block sizes
-#   i: Number of set of shifts for K1
-# Sk2: Number of sets of ships for K2
+#   i: Number of sets of shifts for K1
+# Sk2: Number of sets of shifts for K2
 
 
 CPBND_2diffsize<-function(k,i,D=1,sk2=1){

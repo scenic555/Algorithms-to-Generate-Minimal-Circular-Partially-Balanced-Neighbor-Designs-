@@ -12,7 +12,7 @@
 
 
 ################################################################
-# Division of adjusted A in i groups to get the set(s) of shifs
+# Division of adjusted A in i groups to get the set(s) of shifts
 ################################################################
 grouping1<-function(A,k,v,i){
   bs<-c()
@@ -67,14 +67,14 @@ delmin<-function(z){
 
 
 ####################################################################################
-# Selection of adjusted A and the set(s) of shifs to obtain Circular partially 
+# Selection of adjusted A and the set(s) of shifts to obtain Circular partially 
 # balance neighbour design for block of equal size. 
 ##################################################################################
 
 # D=1: minimal CPBNDs in which v/2 unordered pairs do not appear
 # D=2: minimal CPBNDs in which 3v/2 unordered pairs do not appear 
 #   K: Block sizes
-#   i: Number of set of shifts for K
+#   i: Number of sets of shifts for K
 
 
 CPBND_equalsize<-function(k,i,D=1){
@@ -154,9 +154,9 @@ new("stat_test", x)
 
 
 ##################################################################################
-# Examples: Using CPBND_equalsize function to obtain the set(s) of shifs
+# Examples: Using CPBND_equalsize function to obtain the set(s) of shifts
 # for construction of circular partially balance neighbour design for equal block  
-# sizes (k1)
+# sizes (k)
 ##################################################################################
 
 

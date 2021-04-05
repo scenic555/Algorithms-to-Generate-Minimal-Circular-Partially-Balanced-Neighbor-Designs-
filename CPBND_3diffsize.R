@@ -1,6 +1,7 @@
 ####################################################################################################
 # CPBND_3diffsize: Circular partially balance neighbour design for block of three different sizes 
 # (K1,k2 and k3)
+# Algorithm from paper:
 # Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Muhammad Rasheed and 
 # Rashid Ahmed (2021). Algorithms to Generate Minimal Circular Partially Balanced Neighbor Designs.
 # Code by Mahmood Ul Hassan and Rashid Ahmed, 2020-2021 
@@ -138,16 +139,16 @@ grouping3<-function(A,k,v,i,sk2,sk3){
 
 
 #################################################################################
-# Selection of adjusted A and the set(s) of shifs to obtain Circular partially 
+# Selection of adjusted A and the set(s) of shifts to obtain Circular partially 
 # balance neighbour design for three different block size.
 ##################################################################################
 
-# D=1 :minimal CPBNDs in which v/2 unordered pairs do not appear
-# D=2: minimal CPBNDs in which 3v/2 unordered pairs do not appear 
-# K= Vector of three different block sizes
-# i= Number of set of shifts for K1
-# Sk2= Number of sets of ships for K2
-# Sk3= Number of sets of ships for K3
+# D=1: Minimal CPBNDs in which v/2 unordered pairs do not appear
+# D=2: Minimal CPBNDs in which 3v/2 unordered pairs do not appear 
+#   K: Vector of three different block sizes
+#   i: Number of sets of shifts for K1
+# Sk2: Number of sets of shifts for K2
+# Sk3: Number of sets of shifts for K3
 
 
 CPBND_3diffsize<-function(k,i,D,sk2,sk3){
@@ -399,7 +400,7 @@ new("stat_test", x)
 
 
 ###############################################################################
-# Examples: Using CPBND_3diffsize function to obtain the set(s) of shifs
+# Examples: Using CPBND_3diffsize function to obtain the set(s) of shifts
 # for construction of circular partially balance neighbour design for block of 
 # three different sizes (k1, K2 and k3)
 ###############################################################################
