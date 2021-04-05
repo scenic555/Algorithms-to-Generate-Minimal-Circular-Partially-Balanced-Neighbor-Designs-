@@ -133,8 +133,8 @@ setMethod("show", "stat_test", function(object) {
     row <- paste(rep("=", 51), collapse = "")
     cat(row, "\n")
 cat("Following are required sets of shifts to obtain the 
-minimal CPBND for", "v=" ,object[[5]][1], ",","k1=",object[[5]][2],
-        "and","k2=",object[[5]][3],"\n")
+minimal CPBND for", "v=" ,object$R[1], ",","k1=",object$R[2],
+        "and","k2=",object$R[3],"\n")
     row <- paste(rep("=", 51), collapse = "")
     cat(row, "\n")
     print(object[[1]])
