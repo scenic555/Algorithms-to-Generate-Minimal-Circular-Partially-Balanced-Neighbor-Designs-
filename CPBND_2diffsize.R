@@ -2,9 +2,9 @@
 # CPBND_2diffsize: Circular partially balance neighbour design for block of two different sizes 
 # (K1 and k2)
 # Algorithm from paper:
-# Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Muhammad Rasheed and 
+# Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Talha Omer and 
 # Rashid Ahmed (2021). Algorithms to Generate Minimal Circular Partially Balanced Neighbor Designs.
-# Code by Mahmood Ul Hassan and Rashid Ahmed, 2020-2021 
+# Code by Nadeem et al., 2020-2021 
 # Version 1.3.0  (2021-03-26)
 #####################################################################################################
 
