@@ -115,7 +115,7 @@ delmin<-function(z){
 
 # D=1: minimal CPBNDs in which v/2 unordered pairs do not appear
 # D=2: minimal CPBNDs in which 3v/2 unordered pairs do not appear 
-#   K: Vector of three different block sizes
+#   K: Vector of two different block sizes
 #   i: Number of sets of shifts for K1
 # Sk2: Number of sets of shifts for K2
 
