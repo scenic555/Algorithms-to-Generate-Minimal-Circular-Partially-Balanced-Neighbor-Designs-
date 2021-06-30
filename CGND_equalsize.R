@@ -4,7 +4,7 @@
 # Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
 # Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in Minimal Circular Blocks. 
 # Code by Noreen et al., 2020-2021 
-# Version 1.3.0  (2021-06-30)
+# Version 1.3.0  (2021-06-30)    
 ##########################################################################################
 
 
