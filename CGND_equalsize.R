@@ -67,7 +67,7 @@ delmin<-function(z){
 
 ####################################################################################
 # Selection of adjusted A and the set(s) of shifts to obtain Minimal Circular Generalized 
-# neighbour design for block of equal size. 
+# neighbor design for block of equal size. 
 ##################################################################################
 
 # D=1: minimal CGNDs in which v/2 unordered pairs do not appear
@@ -154,7 +154,7 @@ new("stat_test", x)
 
 ##################################################################################
 # Examples: Using CGND_equalsize function to obtain the set(s) of shifts
-# for construction of Minimal circular Generalized neighbour design for equal block  
+# for construction of Minimal circular Generalized neighbor design for equal block  
 # sizes (k)
 ##################################################################################
 
