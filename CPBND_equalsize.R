@@ -1,11 +1,11 @@
 ##########################################################################################
 # CPBND_equalsize: Circular partially balance neighbour design for block of equal size(K)
 # Algorithm from paper:
-# Muhammad Nadeem, Khadija Noreen, Mahmood Ul Hassan, M. H. Tahir, Talha Omer and 
+# Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
 # Rashid Ahmed (2021). Algorithms to Generate Minimal Circular Partially Balanced Neighbor 
 # Designs. 
-# Code by Nadeem et al., 2020-2021 
-# Version 1.3.0  (2021-03-26)
+# Code by Noreen et al., 2020-2021 
+# Version 1.3.0  (2021-06-30)
 ##########################################################################################
 
 
