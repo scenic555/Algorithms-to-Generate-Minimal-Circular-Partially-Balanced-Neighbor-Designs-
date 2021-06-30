@@ -1,5 +1,5 @@
 ####################################################################################################
-# CGND_2diffsize:Circular Generalized neighbour design for block of two different sizes 
+# CGND_2diffsize:Circular Generalized neighbor design for block of two different sizes 
 # (K1 and k2)
 # Algorithm from paper:
 # Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
@@ -109,7 +109,7 @@ delmin<-function(z){
 }
 
 #################################################################################
-# Selection of adjusted A and the set(s) of shifts to obtain Mininal Circular Generalized
+# Selection of adjusted A and the set(s) of shifts to obtain Minimal Circular Generalized
 # neighbor design for two different block size.
 ##################################################################################
 

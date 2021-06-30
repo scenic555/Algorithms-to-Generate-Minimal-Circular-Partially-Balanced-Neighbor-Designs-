@@ -417,7 +417,7 @@ new("stat_test", x)
 
 ###############################################################################
 # Examples: Using CGND_3diffsize function to obtain the set(s) of shifts
-# for construction of circular Generalized neighbour design for block of 
+# for construction of circular Generalized neighbor design for block of 
 # three different sizes (k1, K2 and k3)
 ###############################################################################
 
