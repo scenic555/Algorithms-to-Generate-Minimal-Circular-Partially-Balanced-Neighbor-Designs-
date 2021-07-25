@@ -1,12 +1,15 @@
-####################################################################################################
-# CGND_2diffsize:Circular Generalized neighbor design for block of two different sizes 
-# (K1 and k2)
+#################################################################################
+# CGND_2diffsize:Circular Generalized neighbor design for block of two different
+# sizes (K1 and k2)
+
 # Algorithm from paper:
+
 # Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
-# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in Minimal Circular Blocks. 
-# Code by Noreen et al., 2020-2021 
+# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in 
+# Minimal Circular Blocks. 
+# Coded by Noreen et al., 2020-2021 
 # Version 1.3.0  (2021-06-30)
-#####################################################################################################
+#################################################################################
 
 
 
@@ -109,9 +112,9 @@ delmin<-function(z){
 }
 
 #################################################################################
-# Selection of adjusted A and the set(s) of shifts to obtain Minimal Circular Generalized
-# neighbor design for two different block size.
-##################################################################################
+# Selection of adjusted A and the set(s) of shifts to obtain Minimal 
+# Circular Generalized neighbor design for two different block size.
+#################################################################################
 
 # D=1: minimal CGNDs in which v/2 unordered pairs do not appear
 # D=2: minimal CGNDs in which 3v/2 unordered pairs do not appear 

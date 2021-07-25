@@ -1,11 +1,14 @@
-##########################################################################################
+##################################################################################
 # CGND_equalsize: Circular Generalized Neighbor Design for block of equal size(K)
+
 # Algorithm from paper:
+
 # Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
-# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in Minimal Circular Blocks. 
-# Code by Noreen et al., 2020-2021 
+# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in 
+# Minimal Circular Blocks. 
+# Coded by Noreen et al., 2020-2021 
 # Version 1.3.0  (2021-06-30)    
-##########################################################################################
+#################################################################################
 
 
 
@@ -154,8 +157,8 @@ new("stat_test", x)
 
 ##################################################################################
 # Examples: Using CGND_equalsize function to obtain the set(s) of shifts
-# for construction of Minimal circular Generalized neighbor design for equal block  
-# sizes (k)
+# for construction of Minimal circular Generalized neighbor design for equal 
+# block sizes (k)
 ##################################################################################
 
 

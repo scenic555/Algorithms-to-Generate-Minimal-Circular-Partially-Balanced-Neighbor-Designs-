@@ -1,20 +1,23 @@
-####################################################################################################
-# CGND_3diffsize: Circular Generalized neighbor design for block of three different sizes 
-# (K1,k2 and k3)
+##################################################################################
+# CGND_3diffsize: Circular Generalized neighbor design for block of three 
+# different sizes (K1,k2 and k3)
+
 # Algorithm from paper:
+
 # Khadija Noreen, Muhammad Sajid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
-# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in Minimal Circular Blocks. 
-# Code by Noreen et al., 2020-2021 
+# Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in 
+# Minimal Circular Blocks. 
+# Coded by Noreen et al., 2020-2021 
 # Version 1.3.0  (2021-06-30)
-####################################################################################################
+#################################################################################
 
 
 
 
-#####################################################################################
-# Selection of i group of size K1 from adjusted A. The set of remaining (Unselected)
-# elements are saved in object B2. 
-#####################################################################################
+#################################################################################
+# Selection of i group of size K1 from adjusted A. The set of remaining
+# (Unselected) elements are saved in object B2. 
+#################################################################################
 
 grouping1<-function(A,k,v,i){
   bs<-c()
@@ -38,10 +41,11 @@ grouping1<-function(A,k,v,i){
   list(B1=bs,B2=A1)
 }
 
-#########################################################################################
-# Selection of i group of size K1 from adjusted A and selection of required number of 
-# groups of size K2 from B2. The set of remaining (Unselected) elements are saved in B3.
-#########################################################################################
+#################################################################################
+# Selection of i group of size K1 from adjusted A and selection of required 
+# number of groups of size K2 from B2. The set of remaining (Unselected) 
+# elements are saved in B3.
+#################################################################################
 
 grouping2<-function(A,k,v,i,sk2){
   bs1<-c()
@@ -72,10 +76,11 @@ grouping2<-function(A,k,v,i,sk2){
   list(B1=s$B1,B2=bs1,B3=A2)
 }
 
-#########################################################################################
-# Selection of i group of size K1 from adjusted A, selection of required number of 
-# groups of size K2 from B2 and division of required number of groups of size K3 from B3.
-#########################################################################################
+#################################################################################
+# Selection of i group of size K1 from adjusted A, selection of required number
+# of groups of size K2 from B2 and division of required number of groups of size
+# K3 from B3.
+#################################################################################
 grouping3<-function(A,k,v,i,sk2,sk3){
   bs1<-c()
   j=i+sk2+sk3
