@@ -161,7 +161,8 @@ new("stat_test", x)
 # block sizes (k)
 ##################################################################################
 
-
+# example#1
+CGND_equalsize(k=5,i=3,D=1)
 
 # example#1
 CGND_equalsize(k=12,i=6,D=1)
