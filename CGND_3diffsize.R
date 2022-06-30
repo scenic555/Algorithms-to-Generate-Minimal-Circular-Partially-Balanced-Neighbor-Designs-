@@ -4,7 +4,7 @@
 
 # Algorithm from paper:
 
-# Khadija Noreen, Muhammad Sajid Rashid, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
+# Khadija Noreen, Muhammad Sajid Rashid, Farrukh Shehzad, Mahmood Ul Hassan, Zahra Noreen, Talha Omer and 
 # Rashid Ahmed (2021). Algorithms to Obtain Generalized Neighbor Designs in 
 # Minimal Circular Blocks. 
 # Coded by Noreen et al., 2020-2021 
